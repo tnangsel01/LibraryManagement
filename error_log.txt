@@ -1,0 +1,102 @@
+Timestamp: 2023-11-20 17:06:54
+Exception: org.postgresql.util.PSQLException
+Message: ERROR: relation "books" does not exist
+  Position: 104
+org.postgresql.util.PSQLException: ERROR: relation "books" does not exist
+  Position: 104
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at BookDAO.searchByBookName(BookDAO.java:62)
+	at MainLibraryManagement.searchByBookName(MainLibraryManagement.java:175)
+	at MainLibraryManagement.performBookSearch(MainLibraryManagement.java:153)
+	at MainLibraryManagement.handleLogin(MainLibraryManagement.java:55)
+	at MainLibraryManagement.main(MainLibraryManagement.java:24)
+
+------------------------------------------------------------
+Timestamp: 2023-11-20 17:15:36
+Exception: org.postgresql.util.PSQLException
+Message: ERROR: relation "library_books" does not exist
+  Position: 117
+org.postgresql.util.PSQLException: ERROR: relation "library_books" does not exist
+  Position: 117
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at BookDAO.searchByBookName(BookDAO.java:62)
+	at MainLibraryManagement.searchByBookName(MainLibraryManagement.java:175)
+	at MainLibraryManagement.performBookSearch(MainLibraryManagement.java:153)
+	at MainLibraryManagement.handleLogin(MainLibraryManagement.java:55)
+	at MainLibraryManagement.main(MainLibraryManagement.java:24)
+
+------------------------------------------------------------
+Timestamp: 2023-11-20 17:30:58
+Exception: org.postgresql.util.PSQLException
+Message: ERROR: column lb.isbn does not exist
+  Hint: Perhaps you meant to reference the column "b.isbn".
+  Position: 146
+org.postgresql.util.PSQLException: ERROR: column lb.isbn does not exist
+  Hint: Perhaps you meant to reference the column "b.isbn".
+  Position: 146
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at BookDAO.searchByBookName(BookDAO.java:62)
+	at MainLibraryManagement.searchByBookName(MainLibraryManagement.java:175)
+	at MainLibraryManagement.performBookSearch(MainLibraryManagement.java:153)
+	at MainLibraryManagement.handleLogin(MainLibraryManagement.java:55)
+	at MainLibraryManagement.main(MainLibraryManagement.java:24)
+
+------------------------------------------------------------
+Timestamp: 2023-11-20 17:36:19
+Exception: org.postgresql.util.PSQLException
+Message: ERROR: syntax error at or near "books"
+  Position: 103
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "books"
+  Position: 103
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at BookDAO.searchByBookName(BookDAO.java:62)
+	at MainLibraryManagement.searchByBookName(MainLibraryManagement.java:175)
+	at MainLibraryManagement.performBookSearch(MainLibraryManagement.java:153)
+	at MainLibraryManagement.handleLogin(MainLibraryManagement.java:55)
+	at MainLibraryManagement.main(MainLibraryManagement.java:24)
+
+------------------------------------------------------------
+Timestamp: 2023-12-01 12:58:38
+Exception: org.postgresql.util.PSQLException
+Message: ERROR: syntax error at or near "books"
+  Position: 103
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "books"
+  Position: 103
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at BookDAO.searchByBookName(BookDAO.java:59)
+	at MainLibraryManagement.searchByBookName(MainLibraryManagement.java:175)
+	at MainLibraryManagement.performBookSearch(MainLibraryManagement.java:153)
+	at MainLibraryManagement.handleLogin(MainLibraryManagement.java:55)
+	at MainLibraryManagement.main(MainLibraryManagement.java:24)
+
+------------------------------------------------------------
